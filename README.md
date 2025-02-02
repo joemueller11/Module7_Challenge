@@ -1,17 +1,17 @@
-# <MODULE7_CHALLENGE_README_GENERATOR>
+# <README_GENERATOR>
 
 ## Description
 A README generator that creates a professional README for new projects.
 
 A command-line application that accepts user input when prompted for information about application.
 
-Generates with the title of my project and sections entitled Description, Table of Contents, Installation, Usage, License, Contributing, Tests, and Questions
+Generates with the title of my project and sections entitled Description, Table of Contents, Installation, Usage, License, Contributing, Tests, and Questions.
 
 Generates a list of license options and once selected, a badge for that license is added near the top of the README and a notice is added to the section of the README entitled License that explains which license the application is covered under.
 
-Entering a GitHub username will add to the section of the README entitled Questions, with a link to your GitHub profile
+Entering a GitHub username will add to the section of the README entitled Questions, with a link to your GitHub profile.
 
-Entering an email address will add to the section of the README entitled Questions, with instructions on how to reach with additional questions
+Entering an email address will add to the section of the README entitled Questions, with instructions on how to reach with additional questions.
 
 
 ## Table of Contents
@@ -21,21 +21,10 @@ Entering an email address will add to the section of the README entitled Questio
 - [License](#license)
 
 ## Installation
-What are the steps required to install your project? Provide a step-by-step description of how to get the development environment running.
+Install Node.js and inquirer package for dependencies.
 
 ## Usage
-Provide instructions and examples for use. Include screenshots as needed.
-To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax:
-
-    ```md
-    ![alt text](assets/images/screenshot.png)
-    ```
-
-## Badges
-![badmath](https://img.shields.io/github/languages/top/lernantino/badmath)
-
-Badges aren't necessary, per se, but they demonstrate street cred. Badges let other developers know that you know what you're doing. Check out the badges hosted by [shields.io](https://shields.io/). You may not understand what they all represent now, but you will in time.
-
+Creates a README.
 
 ## License
 MIT License
@@ -61,11 +50,11 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
 ## Contribute
-https://nodejs.org/en
+Follow best practice for contribtuion guidelines.
 
 ## Tests
-examples of how to run the test
+Using Node.js, type index.js in the terminal.
 
 ## Questions 
-https://github.com/joemueller11/Module7_Challenge.git
+https://github.com/joemueller11
 joseph.m.email@gmail.com  

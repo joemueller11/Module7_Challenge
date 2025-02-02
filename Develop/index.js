@@ -55,10 +55,25 @@ const questions = [
 ];
 
 // TODO: Create a function to write README file
-function writeToFile(fileName, data) {}
+function writeToFile(fileName, data) {
+    fs.writeFile(fileName, data, (err) =>
+    err ? console.error(err) : console.log('README Has Been Made!')
+    );
+}
 
 // TODO: Create a function to initialize app
-function init() {}
+function init() {
+    inquirer.prompt(questions).then((data) => {
+        writeToFile('README.md', generateMarkdown(data));
+    })
+    .catch((error) => {
+        if (error.isTtyError) {
+            console.log("Prompt couldn't be rendered in environment.");
+        } else {
+            console.log("Something went wrong.");
+        }
+    });
+}
 
 // Function call to initialize app
 init();
