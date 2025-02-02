@@ -25,6 +25,7 @@ Install Node.js and inquirer package for dependencies.
 
 ## Usage
 Creates a README.
+Video link on usage:https://drive.google.com/file/d/1S9LxQepAe4fsvOQ3Ysl89kt17IwFUyWC/view?usp=sharing
 
 ## License
 MIT License
@@ -56,5 +57,7 @@ Follow best practice for contribtuion guidelines.
 Using Node.js, type index.js in the terminal.
 
 ## Questions 
+Reach out to:
 https://github.com/joemueller11
+or Email:
 joseph.m.email@gmail.com  
